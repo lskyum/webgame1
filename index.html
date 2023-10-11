@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <base href="./">
     <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
@@ -16,7 +15,7 @@
     </script>
 
     <script type="module">
-        import { MyGame } from '/game/MyGame.js';
+        import { MyGame } from './game/MyGame.js';
         const game = new MyGame();
         game.start(document.getElementById('game'), "/game/data");
     </script>
